@@ -1,0 +1,12 @@
+1. ¿Por qué ArrayList o LinkedList NO son aceptables?
+ArrayList busca elementos por su indice, y LinkedList es ideal para estructuras que cambian constantemente de tamaño, ambas consumirian memoria lo cual no es optimo
+
+2. ¿Por qué HashSet NO resuelve el problema por sí solo?
+Por que no garantiza el orden al buscar los valores, consumiendo memoria al buscarlos
+
+3. ¿Por qué TreeMap NO es la opción ideal?
+Por que tiene un rendimiento O(log n)
+
+4. ¿Cuál es la ÚNICA estructura basada en hashing que resuelve todas las operaciones en 
+tiempo promedio constante 0(1)?
+HashMap
